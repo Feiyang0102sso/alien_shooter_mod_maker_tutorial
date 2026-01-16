@@ -39,7 +39,7 @@ actions:
 highlights:
 #  part1 功能专区
   # 第一行：游戏专区
-  - bgImage: /assets/image/menu254.png
+  - bgImage: /alien_shooter_mod_maker_tutorial/assets/image/menu254.png
     bgImageStyle:
       background-attachment: fixed    
       background-position: center 20%
@@ -60,7 +60,7 @@ highlights:
         details: Zombie Shooter 1 MOD专区
 
   # 第二行：通用文件格式
-  - bgImage: /assets/image/menu254.png # 每一块都要写路径，否则下面会变黑
+  - bgImage: /alien_shooter_mod_maker_tutorial/assets/image/menu254.png # 每一块都要写路径，否则下面会变黑
     bgImageStyle:
       background-attachment: fixed
       background-position: center 20%
@@ -76,7 +76,7 @@ highlights:
         details: 游戏所使用的特定资源格式
 
   # 第三行：待开发专区（同上，重复背景配置...）
-  - bgImage: /assets/image/menu254.png
+  - bgImage: /alien_shooter_mod_maker_tutorial/assets/image/menu254.png
     bgImageStyle:
       background-attachment: fixed
       background-position: center 20%
@@ -95,7 +95,7 @@ highlights:
   # part2:：Mod 作者专区
   - header: MOD 大神们 （不分先后，如有遗漏还望海涵）
     class: author-section
-    bgImage: /assets/image/menu254.png # 必须重复写背景，否则这一块会变黑
+    bgImage: /alien_shooter_mod_maker_tutorial/assets/image/menu254.png # 必须重复写背景，否则这一块会变黑
     bgImageStyle:
       background-position: center 20%
       opacity: 0.5
