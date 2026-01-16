@@ -1,0 +1,105 @@
+// place your custom styles here
+/* --- 主页功能板块样式优化 --- */
+
+/* 1. 强制内容水平居中 */
+.vp-feature-wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  gap: 2rem !important;
+  border: none !important;
+}
+
+/* 2. 统一卡片样式与布局 */
+.vp-feature-item {
+  flex: 0 0 250px !important;
+  margin: 0 !important;
+  text-align: center !important;
+
+  /* 布局调整：确保图标在文字上方并居中 */
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 1.5rem !important;
+  border-radius: 12px !important;
+
+  /* 动画过渡 */
+  transition: all 0.3s ease-in-out !important;
+  border: 1px solid transparent !important; // 预留边框位置防止抖动
+
+  /* --- 核心：全站通用的紫色毛玻璃悬停特效 --- */
+  &:hover {
+    /* 1. 毛玻璃模糊效果 */
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important; // 兼容 Safari
+
+    /* 2. 半透明紫色背景 (暗紫色调) */
+    background-color: rgba(106, 13, 173, 0.4) !important;
+
+    /* 3. 紫色发光边缘与阴影 */
+    border: 1px solid rgba(191, 123, 255, 0.3) !important;
+    box-shadow: 0 8px 32px rgba(106, 13, 173, 0.4) !important;
+
+    /* 4. 轻微上浮感 */
+    transform: translateY(-5px) !important;
+  }
+}
+
+/* 针对作者专区微调宽度 */
+.author-section {
+  .vp-feature-item {
+    flex: 0 0 150px !important; /* 更小的宽度 */
+    padding: 2rem !important;
+  }
+}
+
+/* 3. 图标与头像统一处理 */
+.vp-feature-icon {
+  order: -1 !important;        /* 强制图标排在最前面 */
+  margin: 0 0 1rem 0 !important;
+  width: 80px !important;      /* 统一图标/头像大小 */
+  height: 80px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: none !important; // 去掉默认背景色
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50% !important; /* 全局统一圆形头像/图标 */
+    object-fit: cover !important;  /* 自动缩放填充 */
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* 4. 消除多组 highlights 之间的缝隙 */
+.vp-home-highlights {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border: none !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center 20% !important;
+}
+
+
+
+
+
+
+//居中标题和图标
+.vp-hero-info {
+  display: block;
+  text-align: center;
+
+  .vp-hero-image {
+    max-height: 200px;
+    margin: 0 auto;
+  }
+}
+
+#main-description {
+  max-width: 100%;
+}
