@@ -5,8 +5,8 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
 
-  base: "/alien_shooter_mod_maker_tutorial/",
-
+  // base: "/alien_shooter_mod_maker_tutorial/",
+  base: "/",
   locales: {
     "/": {
       lang: "en-US",
