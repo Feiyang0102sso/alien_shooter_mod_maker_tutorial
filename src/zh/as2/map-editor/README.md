@@ -5,6 +5,9 @@ author: 火舞飞炀
 index: false
 order: 1
 comment: false
+
+dir:
+  order: 1
 ---
 
 

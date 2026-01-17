@@ -5,6 +5,7 @@ index: false
 order: 1
 pageInfo: false
 comment: false
+shortTitle: 孤胆枪手2
 ---
 
 ::: important 重要说明
