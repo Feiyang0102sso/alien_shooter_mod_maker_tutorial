@@ -4,6 +4,7 @@ export const zhSidebar = sidebar({
   "/zh/download/": "structure",
   "/zh/as1/": "structure",
   "/zh/as2/": "structure",
+  "/zh/vid_file/": "structure",
   "/zh/": [
     // "portfolio",
     // {

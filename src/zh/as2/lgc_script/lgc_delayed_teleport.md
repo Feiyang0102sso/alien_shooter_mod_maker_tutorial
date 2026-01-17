@@ -3,7 +3,8 @@ title: 脚本-延时传送
 author: 火舞飞炀
 icon: clock-rotate-left
 date: 2026-01-16
-order: 8
+order: 10
+changelog: true
 ---
 
 有关传送的代码均在==util_teleport.lgc==中，包括ScriptEvent11 ScriptEvent12 ScriptEvent13的代码
@@ -26,5 +27,3 @@ order: 8
     	BeginTeleporting2( unit, 0, 0, false, TELEPORT_TIME_SCRIPT );
 	return true;
 ```
-
-# 

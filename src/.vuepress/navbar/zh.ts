@@ -16,6 +16,8 @@ export const zhNavbar = navbar([
       },
     ],
   },
+  //   ==============================
+
   {
     text: "孤胆枪手2",
     icon: "skull",
@@ -27,14 +29,12 @@ export const zhNavbar = navbar([
         prefix: "map-editor/",
         children: ["me_basic_teleport", "me_basic_mask", "me_basic_enemy_generator.md", "me_basic_npc.md"],
       },
-
       {
         text: "任务编辑器",
         icon: "map",
         prefix: "quest_editor/",
         children: ["quest_editor"],
       },
-
       {
         text: "LGC 脚本",
         icon: "map",
@@ -42,7 +42,7 @@ export const zhNavbar = navbar([
         children: ["lgc_basic_quest", "lgc_delayed_teleport"],
       },
     ],
-
-
   },
+  //   ==============================
+  "/zh/vid_file/",
 ]);

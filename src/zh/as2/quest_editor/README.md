@@ -3,7 +3,7 @@ title: Alien Shooter 2 任务编辑器
 icon: clipboard-list
 author: 火舞飞炀
 index: false
-order: 1
+order: 6
 comment: false
 ---
 

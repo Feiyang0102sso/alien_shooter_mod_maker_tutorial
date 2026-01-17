@@ -3,7 +3,7 @@ title: 脚本基础-等效代码
 author: 火舞飞炀
 icon: code-compare
 date: 2026-01-16
-order: 7
+order: 9
 ---
 
 这部分将讲一些和游戏内指令或任务编辑器设置相等效的基础lgc代码

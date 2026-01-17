@@ -91,6 +91,7 @@ export default hopeTheme({
     mark: true,
     plantuml: true,
     spoiler: true,
+    alert: true,
     stylize: [
       {
         matcher: "Recommended",
@@ -167,6 +168,7 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:",
     },
+
 
     // Install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {

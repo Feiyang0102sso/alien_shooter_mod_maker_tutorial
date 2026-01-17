@@ -27,7 +27,8 @@ export default defineUserConfig({
       "link",
       {
         rel: "icon",
-        href: "/as_main.ico",
+        // 修复网页不显示图标
+        href: "/alien_shooter_mod_maker_tutorial/as_main.ico",
       },
     ],
   ],

@@ -3,7 +3,7 @@ title: 任务编辑器介绍及用例
 icon: list-check
 author: 火舞飞炀
 date: 2026-01-16
-order: 8
+order: 7
 ---
 
 ## 界面简介

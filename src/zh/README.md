@@ -74,6 +74,7 @@ highlights:
       - title: 通用-.vid 文件
         icon: file-video
         details: 游戏所使用的特定资源格式
+        link: ./vid_file/
 
   # 第三行：待开发专区（同上，重复背景配置...）
   - bgImage: /alien_shooter_mod_maker_tutorial/assets/image/menu254.png
