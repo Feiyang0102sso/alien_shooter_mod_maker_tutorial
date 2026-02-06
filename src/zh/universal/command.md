@@ -15,4 +15,6 @@ import CommandAlmanac from '@source/.vuepress/components/CommandAlmanac/CommandA
 </script>
 
 <!-- 2. 使用组件，设置语言为 zh -->
-<CommandAlmanac locale="zh" />
+<ClientOnly>
+  <CommandAlmanac locale="zh" />
+</ClientOnly>
