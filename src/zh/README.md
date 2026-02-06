@@ -27,9 +27,10 @@ actions:
     link: ./download/
     type: primary
 
-#  - text: 社区
-#    icon: comment
-#    link: ./contribution/
+  - text: 指令图鉴
+    icon: book-atlas
+    link: ./universal/
+#    type: primary
 #
 #  - text: 赞助
 #    icon: hand-holding-heart
