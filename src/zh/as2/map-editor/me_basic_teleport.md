@@ -3,7 +3,7 @@ title: 地图编辑器基础-玩家传送
 author: 火舞飞炀
 icon: person-walking-arrow-right
 date: 2026-01-16
-order: 2
+order: 4
 ---
 
 ## 升降梯

@@ -3,8 +3,18 @@ title: 地图编辑器基础-刷怪点
 author: 火舞飞炀
 icon: location-crosshairs
 date: 2026-01-16
-order: 4
+order: 6
 ---
+
+## 简单刷怪
+
+==Dummy 类 908==
+
+最简单的刷怪点，和1代一样，塞在玩家看不见的地方然后刷怪。
+
+吐槽下这个ui设计的真小，一点都不好观察。建议把他替换为1代的刷怪点vid。
+
+![](./me_basic_enemy_generator.assets/908.png)
 
 ## 小洞穴
 
@@ -12,11 +22,11 @@ order: 4
 
 另一个vid 1381是纯摆设，没任何作用。
 
-![monster generate2](./me_basic_enemy_generator.assets/monster generate2.png)
+![](./me_basic_enemy_generator.assets/monster_generate2.png)
 
 大致原理是将洞穴铺在地图上，先将其隐藏，等到触发达成时再将其取消隐藏，然后配上震动和其他小动画。
 
-![monster generate1](./me_basic_enemy_generator.assets/monster generate1.png)
+![](./me_basic_enemy_generator.assets/monster_generate1.png)
 
 ```c#
 ACT_SET_INVISIBLE 1 0 0
@@ -44,13 +54,13 @@ ACT_MOVE 1555 1186 20
 
 需要用 ==Dummy类908== 怪物生成器间接生成。直接放置的大洞穴不具备生成功能，就是个摆设。
 
-![big hole1](./me_basic_enemy_generator.assets/big hole1.png)
+![](./me_basic_enemy_generator.assets/big_hole1.png)
 
 用于生成怪物的只有用红框标注出来的，生成一个大头，其余的均为特效，碎石，震动等。可以直接从现有的地图中复制指令，如AS2R第二关。
 
 绿框所示为生成的大洞穴
 
-![big hole2](./me_basic_enemy_generator.assets/big hole2.png)
+![](./me_basic_enemy_generator.assets/big_hole2.png)
 
 ```c#
 924:震动特效;
@@ -63,7 +73,7 @@ SFX 114:破墙音效;
 
 ## 传送器
 
-![teleport1](./me_basic_enemy_generator.assets/teleport1.png)
+![](./me_basic_enemy_generator.assets/teleport1.png)
 
 原理是从地图的某个角落将事先放好的传送器瞬移到相应位置。指令同样可分为特效区域和真正起作用的刷怪区域。特效指令都是一样的，可以从现成的任务里直接抄。
 
@@ -78,7 +88,7 @@ ANI_SALUT: 从地里钻出来并留下大洞的动画
 
 
 
-![teleport2](./me_basic_enemy_generator.assets/teleport2.png)
+![](./me_basic_enemy_generator.assets/teleport2.png)
 
 红框所示为刷怪指令，表示从第7行到第1行会不断反复执行。
 

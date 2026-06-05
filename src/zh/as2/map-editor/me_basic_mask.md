@@ -3,7 +3,7 @@ title: 地图编辑器基础-地图遮罩(战争迷雾)
 author: 火舞飞炀
 icon: eye-slash
 date: 2026-01-16
-order: 3
+order: 5
 ---
 
 ## 地图遮罩

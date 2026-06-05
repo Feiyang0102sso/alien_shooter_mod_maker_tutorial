@@ -3,7 +3,7 @@ title: 地图编辑器基础-NPC操作
 author: 火舞飞炀
 icon: user-gear
 date: 2026-01-16
-order: 5
+order: 7
 ---
 
 ## NPC跟随, 解除跟随, 传送
