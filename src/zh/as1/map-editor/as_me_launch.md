@@ -325,7 +325,7 @@ order: 2
     + 只勾选 active 既不会移动也不会进攻
     + Careful 未知
 
-![unit property](./as_me_launch.assets/unit%20property.png)
+![unit property](./as_me_launch.assets/unit_property.png)
 
 
 
@@ -337,7 +337,7 @@ order: 2
 
 ​	该界面中的两个 last mouse选项可快速插入上一鼠标位置的坐标进入 var1 var2 或者 var2 var3。
 
-<img src="./as_me_launch.assets/stack%20line.png" alt="stack line" style="zoom:150%;" />
+<img src="./as_me_launch.assets/stack_line.png" alt="stack line" style="zoom:150%;" />
 
 
 
@@ -363,7 +363,7 @@ order: 2
 
 ​	至于那个自动保存，信他还不如多敲几次F2呢。
 
-![map editor option](./as_me_launch.assets/map%20editor%20option.png)
+![map editor option](./as_me_launch.assets/map_editor_option.png)
 
 
 

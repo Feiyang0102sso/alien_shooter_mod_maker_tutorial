@@ -24,7 +24,7 @@ order: 3
 
 ​	还需注意的一点是部分情况下大门会出现被穿透的情况，参见下图。其原理大概是门的堵塞占位符偏离了门原来的位置。将方向设置为==0和64==可以完全避免这个问题，可通过direction边上的按钮来多次切换方向，这样切换出来的方向都是0 32 64 128 等数，可以较快地得到想要的值。
 
-<img src="./as_me_build.assets/AlienShooter 2024-07-26 11-45-45-513.jpg" alt="AlienShooter 2024-07-26 11-45-45-513"  />
+<img src="./as_me_build.assets/AlienShooter_2024-07-26_11-45-45-513.jpg" alt="AlienShooter 2024-07-26 11-45-45-513"  />
 
 ​	两种推荐方向如下,direction分别为==0和64==
 
@@ -58,7 +58,7 @@ order: 3
 
     ![image-20240731160834218](./as_me_build.assets/image-20240731160834218.png)
 
-    ![bandicam 2024-07-26 14-15-00-949](./as_me_build.assets/bandicam 2024-07-26 14-15-00-949.jpg)
+    ![bandicam 2024-07-26 14-15-00-949](./as_me_build.assets/bandicam_2024-07-26_14-15-00-949.jpg)
 
 ## 2.3 隐藏点触发
 

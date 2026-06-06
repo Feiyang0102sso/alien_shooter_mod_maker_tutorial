@@ -17,7 +17,7 @@ order: 7
 + 每个白色的框代表一个任务单元。可双击灰色空白框创建。点击一个创建好的框按下del键可将其删除。
 + 红色的竖线代表关卡分界线。可通过右键单击间隙处创建/取消。可通过最上方的数字条快速跳转到对应关卡。1-0和1-1之间的初始竖线无法被创建，但是必须的，若没有这条线，关卡序列号会乱掉。
 
-<img src="./quest_editor.assets/as2 quest editor4.png" alt="as2 quest editor4" style="zoom: 80%;" />
+<img src="./quest_editor.assets/as2_quest_editor4.png" alt="as2 quest editor4" style="zoom: 80%;" />
 
 进入一个任务框后界面如下
 
@@ -29,15 +29,15 @@ order: 7
 4. Accomplished 任务完成 显示 accomplished 字样
 5. win on begin 按空格键通关
 
-![as2 quest editor1](./quest_editor.assets/as2 quest editor1.png)
+![as2 quest editor1](./quest_editor.assets/as2_quest_editor1.png)
 
 每一个状态栏会在任务框中对应一个小图标，方便识别
 
-![as2 quest editor3](./quest_editor.assets/as2 quest editor3.png)
+![as2 quest editor3](./quest_editor.assets/as2_quest_editor3.png)
 
 + bonus main 栏表示任务完成后的奖励以及被回收的物品
 
-![as2 quest editor2](./quest_editor.assets/as2 quest editor2-1726554208798-5.png)
+![as2 quest editor2](./quest_editor.assets/as2_quest_editor2-1726554208798-5.png)
 
 ## 实例：一个简单的任务
 
@@ -51,7 +51,7 @@ order: 7
 
 + 击杀怪物后显示任务完成信息 并给予玩家金钱和经验奖励。
 
-![quest editor实例1](./quest_editor.assets/quest editor实例1.png)
+![quest editor实例1](./quest_editor.assets/quest_editor实例1.png)
 
 完成这个任务需要三个任务框。
 
